@@ -1,0 +1,1 @@
+import{j as a}from"./index-85e0cf12.js";const i=t=>{const e=t.isPassword?"password":"text",n=`w-full  h-10 mt-5  p-3  font-Poppins font-semibold ${t.additionalStyles}`;return a.jsx("input",{onChange:t.onChange,type:e,className:n,placeholder:t.placeholder,value:t.value,id:t.id,name:t.name,pattern:t.pattern})};export{i as I};
