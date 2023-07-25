@@ -1,0 +1,1 @@
+const c=async(t,s,r,a)=>{const n={method:"POST"};try{let e="";t?e=`prov=${t}`:r?e=`dis_id=${r}`:a?e=`subdis_id=${a}`:s?e=`city_id=${s}`:e="prov=true";const o=await fetch(`https://agentserver.stheven.website/eq?${e}`,n),i=await o.json();return o.status===404&&console.error("Tidak ditemukan"),i}catch(e){throw e}};export{c as p};
