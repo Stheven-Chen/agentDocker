@@ -5,4 +5,4 @@ FROM nginx:1.18.0
 COPY default /etc/nginx/sites-enabled/default
 
 # Salin seluruh isi folder "build" ke direktori "/var/www/html" di dalam kontainer
-COPY build/ /var/www/html/
+COPY build /var/www/html/
